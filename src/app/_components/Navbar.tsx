@@ -101,7 +101,7 @@ function ResponsiveAppBar() {
                 <MenuItem key={page.name} onClick={handleCloseNavMenu}>
                    <Link
                   href={page.path}
-                  style={{ color: "white", textDecoration: "none" }}
+                  style={{ color: "#5E0006", textDecoration: "none" }}
                 >
                   {page.name}
                 </Link>

@@ -31,7 +31,7 @@ export default function ProductsPage() {
   return (
     <Grid container spacing={2} sx={{ p: 2 }}>
   {data.map((product) => (
-    <Grid  size={{ xs: 12 , md: 6  , lg:4}} sx={{ p: { xs: 12 , md: 6  , lg:12} }} key={product._id}>
+    <Grid  size={{ xs: 12 , md: 6  , lg:4}} sx={{ p: { xs: 5 , md: 6  , lg:12} }} key={product._id}>
       <Card>
         <CardMedia
           component="img"
